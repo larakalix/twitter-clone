@@ -5,11 +5,12 @@ import Image from "next/image";
 import { fetcher } from "../src/swr/fetcher";
 import { Tweet } from "../src/components/global/interfaces";
 import { TweetBox } from "../src/components/tweet";
+import { Loading } from "../src/components/global/components";
 
 const Home: NextPage = () => {
     let { data } = useSWR("api/tweets", fetcher);
 
-    if (!data) return <h1>Loading...</h1>;
+    if (!data) return <Loading />;
 
     return (
         <div>

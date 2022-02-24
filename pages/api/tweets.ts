@@ -30,7 +30,10 @@ const tweets: Tweet[] = [
         userName: "Gilda_Hettinger2020",
         avatarUri:
             "https://pbs.twimg.com/profile_images/1494432633194958848/soDhYyEa_400x400.jpg",
-        text: "Vuelve la magia que más nos gusta en Harry Potter 20 Aniversario: Regreso a Hogwarts. Solo en HBO Max. ¡Suscríbete ahora!",
+        text: `
+        Vuelve la magia que más nos gusta en Harry Potter 20 Aniversario: Regreso a Hogwarts. 
+        
+        Solo en HBO Max. ¡Suscríbete ahora!`,
         date: "2020-01-17",
     },
     {
@@ -66,11 +69,10 @@ const tweets: Tweet[] = [
         userName: "@GeraldM_92",
         avatarUri:
             "https://pbs.twimg.com/profile_images/1302088726202519553/8U-bJ8Fb_400x400.jpg",
-        text: `
-            @bejamas_io release some days ago the #DISCOVERYhub with gold info about the modern-day web tools. That was a big team effort. I had the chance to contribute with two #headlessCMS reviews.
-            Check here 🤓:
-            @strapijs: https://tinyurl.com/strapi-cms @TakeShapeIO: https://tinyurl.com/takeshape
-        `,
+        text: `@bejamas_io release some days ago the #DISCOVERYhub with gold info about the modern-day web tools. That was a big team effort. I had the chance to contribute with two #headlessCMS reviews.
+        Check here 🤓:
+        
+        @strapijs: https://tinyurl.com/strapi-cms @TakeShapeIO: https://tinyurl.com/takeshape`,
         date: "2020-01-22",
     },
     {
@@ -79,11 +81,9 @@ const tweets: Tweet[] = [
         userName: "Netlify",
         avatarUri:
             "https://pbs.twimg.com/profile_images/1413544188411482112/61xGHyIi_400x400.jpg",
-        text: `
-            😎 We’re getting pumped!
-
-            Join us live TOMORROW to hear Salma @whitep4nth3r talk about the power of building and deploying Next.js sites with Netlify.
-        `,
+        text: `😎 We’re getting pumped!
+        
+        Join us live TOMORROW to hear Salma @whitep4nth3r talk about the power of building and deploying Next.js sites with Netlify.`,
         date: "2020-01-23",
     },
     {
@@ -92,14 +92,12 @@ const tweets: Tweet[] = [
         userName: "Netlify",
         avatarUri:
             "https://pbs.twimg.com/profile_images/1413544188411482112/61xGHyIi_400x400.jpg",
-        text: `
-        We're into the final week of 
+        text: `We're into the final week of 
         @hashnode
         's Netlify hackathon.
         There's still time to join the fun, and some great prizes on offer!
         
-        Get in quick!
-        `,
+        Get in quick!`,
         date: "2020-01-24",
     },
 ];
